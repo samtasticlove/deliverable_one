@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "roboto", sans serif;
+}
+@media screen and (min-width: 768px){
+    .flex-container{
+        display: flex;
+    }
+          .main{
+             display: inline-block;
+             }
+            .header{
+            display: inline-block;
+             }
+             .list{
+            display: inline-flex;
+            }
+             .contact{
+            width: auto;
+            }
+    .learn-more{
+        display: inline-block;
+    }
+    @media (min-width: 768px){
+        img{
+            visibility: hidden;
+        }
+    }
+    .learn{
+        width: auto;
+    }
+   
+
+}
+
+img{
+    height: 400;
+    width: 600;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    background-color: #F2F2F2;
+}
+    h1 {
+    font-size: 200%;
+    }
+        ul{
+            padding-left: 0;
+            color: #000;
+        }
+            li{
+            list-style-type: none;
+            padding: 20px;
+            }
+.learn-more{
+    background-color: #fff;
+}
+    h2{
+    font-size: 100%;
+    top: 100px;
+    }
+
+
+li:hover{
+    color: #ff5c0f
+}
+.orange{
+    color: #ff5c0f
+}
+.blue{
+    color: #20a8b4
+}
+button{
+    color: #fff;
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+button:hover{
+    background-color: #ff5c0f
+}
+.contact{
+    width: 100%;
+}
+.learn{
+    width: 100%
+}
+body {
+
+  }
